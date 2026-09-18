@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — BUILDGROUP</title>
+  <link rel="stylesheet" href=style.css>
+
+
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <div class="logo">BUILD<span>GROUP</span></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn">Request Call</a>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Contact Our Sales Team</h1>
+
+    <div class="form-wrapper">
+      <form action="#" method="post">
+       
+        <fieldset>
+          <legend>Consultation Request Form</legend>
+
+          
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" placeholder="e.g. John Doe" required maxlength="50">
+          </div>
+
+          
+          <div class="form-group">
+            <label for="userEmail">Email Address *</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="name@example.com" required>
+          </div>
+
+         
+          <div class="form-group">
+            <label for="rooms">Desired Number of Rooms</label>
+            <input type="number" id="rooms" name="rooms" min="1" max="5" value="1">
+          </div>
+
+          <!-- Input 4: Date -->
+          <div class="form-group">
+            <label for="consultDate">Preferred Meeting Date</label>
+            <input type="date" id="consultDate" name="consultDate">
+          </div>
+
+         
+          <div class="form-group">
+            <label>Property Class Interest:</label>
+            <div class="radio-group">
+              <input type="radio" id="classComfort" name="propertyClass" value="comfort" checked>
+              <label for="classComfort">Comfort</label>
+
+              <input type="radio" id="classBusiness" name="propertyClass" value="business">
+              <label for="classBusiness">Business</label>
+
+              <input type="radio" id="classPremium" name="propertyClass" value="premium">
+              <label for="classPremium">Premium</label>
+            </div>
+          </div>
+
+          <!-- Textarea -->
+          <div class="form-group">
+            <label for="message">Additional Questions</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us more about your preferences..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-full">Submit Request</button>
+        </fieldset>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p> 2026 AKYLGROUP. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
