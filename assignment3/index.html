@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore BUILDGROUP residential projects in Kazakhstan.">
+  <title>BUILDGROUP — Find your next home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white py-3" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">BUILD<span>GROUP</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#benefits">Advantages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#questions">FAQ</a></li>
+          <li class="nav-item"><a class="btn btn-primary" href="#contact">Request a call</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- Task 2: text stays first on mobile; order utilities reverse desktop order. -->
+    <section class="hero py-5" id="about" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-center">
+          <div class="col-12 col-md-6 order-1 order-md-2">
+            <p class="eyebrow">Kazakhstan · Modern living</p>
+            <h1 class="display-5 fw-bold" id="hero-title">A better place<br>to call home.</h1>
+            <p class="lead mt-3">Discover residential communities designed around the way you live. More comfort, thoughtful spaces and room to grow.</p>
+            <div class="d-flex flex-wrap gap-2 mt-4"><a class="btn btn-primary px-4" href="#projects">Explore projects</a><a class="btn btn-outline-dark px-4" href="../about.html">Our story</a></div>
+            <p class="d-none d-md-block small text-secondary mt-4 mb-0">Smart homes · Energy-efficient design · Secure courtyards</p>
+            <p class="d-md-none small text-secondary mt-3 mb-0">Find your home below.</p>
+          </div>
+          <div class="col-12 col-md-6 order-2 order-md-1"><img class="hero-photo" src="../Highvill.jpg" alt="Highvill residential towers and landscaped surroundings"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Task 1: no Bootstrap classes anywhere inside this section. -->
+    <section class="benefits" id="benefits" aria-labelledby="benefits-title">
+      <div class="benefits-inner">
+        <h2 class="benefits-heading" id="benefits-title">Built around your everyday life</h2>
+        <p class="benefits-intro">The details that turn an apartment into a home.</p>
+        <div class="benefits-grid">
+          <article class="benefit"><span class="benefit-number">01 / COMFORT</span><h3>Smart home living</h3><p>Convenient automation brings everyday control closer to you.</p></article>
+          <article class="benefit"><span class="benefit-number">02 / EFFICIENCY</span><h3>Thoughtful architecture</h3><p>Energy-efficient design and practical spaces for modern families.</p></article>
+          <article class="benefit"><span class="benefit-number">03 / SECURITY</span><h3>A quieter courtyard</h3><p>Closed courtyard areas and security for a more peaceful routine.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="eyebrow">Find your neighbourhood</p><h2 class="fw-bold" id="projects-title">Featured projects</h2><p class="text-secondary mb-4">Three communities. A new chapter for your family.</p>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4"><article class="card h-100"><img src="../Highvill.jpg" class="card-img-top project-photo" alt="Highvill Astana towers"><div class="card-body d-flex flex-column p-4"><span class="small text-secondary">YESIL DISTRICT</span><h3 class="h4 mt-2">Highvill Astana</h3><p>Business-class living with landscaped outdoor spaces.</p><a class="btn btn-outline-primary mt-auto" href="../contact.html">Ask about Highvill</a></div></article></div>
+          <div class="col-12 col-md-6 col-lg-4"><article class="card h-100"><img src="../dream.city1.webp" class="card-img-top project-photo" alt="Dream City residential buildings"><div class="card-body d-flex flex-column p-4"><span class="small text-secondary">BAITEREK AREA</span><h3 class="h4 mt-2">Dream City</h3><p>Comfortable homes with space for everyday family life.</p><a class="btn btn-outline-primary mt-auto" href="../contact.html">Ask about Dream City</a></div></article></div>
+          <div class="col-12 col-md-6 col-lg-4"><article class="card h-100"><img src="../nexpo.jpg" class="card-img-top project-photo" alt="Nexpo City residential complex"><div class="card-body d-flex flex-column p-4"><span class="small text-secondary">EXPO DISTRICT</span><h3 class="h4 mt-2">Nexpo City</h3><p>Premium residences in a contemporary urban neighbourhood.</p><a class="btn btn-outline-primary mt-auto" href="../contact.html">Ask about Nexpo</a></div></article></div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-white" id="questions" aria-labelledby="faq-title">
+      <div class="container"><div class="row g-4">
+        <div class="col-12 col-lg-4"><p class="eyebrow">Your next step</p><h2 class="fw-bold" id="faq-title">Buying a home,<br>made clearer.</h2><p class="text-secondary">Start with the questions that matter to you.</p></div>
+        <div class="col-12 col-lg-8"><div class="accordion" id="buyingFaq">
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answerOne" aria-expanded="true" aria-controls="answerOne">How do I choose an apartment?</button></h3><div id="answerOne" class="accordion-collapse collapse show" data-bs-parent="#buyingFaq"><div class="accordion-body">Choose a complex, then discuss your preferred room count and floor plan with the sales team.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerTwo" aria-expanded="false" aria-controls="answerTwo">Which payment options can I discuss?</button></h3><div id="answerTwo" class="accordion-collapse collapse" data-bs-parent="#buyingFaq"><div class="accordion-body">Ask the sales team about current payment plans and mortgage options for your selected apartment.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerThree" aria-expanded="false" aria-controls="answerThree">Can I arrange a consultation?</button></h3><div id="answerThree" class="accordion-collapse collapse" data-bs-parent="#buyingFaq"><div class="accordion-body">Use our contact page to enter your preferences and preferred meeting date.</div></div></div>
+        </div></div>
+      </div></div>
+    </section>
+    <section class="py-5" id="contact" aria-labelledby="contact-title"><div class="container"><div class="row g-4 align-items-center"><div class="col-12 col-md-8"><p class="eyebrow">Let's talk</p><h2 class="fw-bold" id="contact-title">Your new home starts with a conversation.</h2><p class="text-secondary mb-0">Tell our sales team what you are looking for.</p></div><div class="col-12 col-md-4 d-flex justify-content-md-end"><a class="btn btn-primary px-4 py-3" href="../contact.html">Request a consultation</a></div></div></div></section>
+  </main>
+  <footer class="bg-dark text-white py-4"><div class="container d-flex flex-wrap gap-3 justify-content-between"><p class="mb-0">© 2026 AKYLGROUP</p><a class="text-white" href="../index.html">Back to original website</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

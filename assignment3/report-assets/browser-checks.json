@@ -1,0 +1,41 @@
+[
+  {
+    "width": 375,
+    "scrollWidth": 375,
+    "viewport": 375,
+    "benefitColumns": 1,
+    "cardColumns": 1,
+    "phoneHintVisible": true,
+    "images": true,
+    "bootstrapLoaded": true,
+    "menuTest": "passed",
+    "accordionTest": "passed",
+    "errors": []
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "viewport": 768,
+    "benefitColumns": 2,
+    "cardColumns": 2,
+    "phoneHintVisible": false,
+    "images": true,
+    "bootstrapLoaded": true,
+    "menuTest": "passed",
+    "accordionTest": "passed",
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "viewport": 1280,
+    "benefitColumns": 3,
+    "cardColumns": 3,
+    "phoneHintVisible": false,
+    "images": true,
+    "bootstrapLoaded": true,
+    "menuTest": "passed",
+    "accordionTest": "passed",
+    "errors": []
+  }
+]
